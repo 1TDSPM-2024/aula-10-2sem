@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { MinhaTabela } from "../../style/styles";
 import { useState } from "react";
 import { TipoProduto } from "../../types";
 import { listaProdutos } from "../../listaProdutos";
@@ -18,7 +17,7 @@ const lista:TipoProduto[] = JSON.parse(listaProdutosString);
       <div>
         <h1>Produtos Eletrônicos</h1>
 
-        <MinhaTabela>
+        <table>
           <thead>
             <tr>
               <th>Nome</th>
@@ -50,7 +49,7 @@ const lista:TipoProduto[] = JSON.parse(listaProdutosString);
             </td>
           </tr>
         </tfoot>
-      </MinhaTabela>
+      </table>
       </div>
     );
   }
