@@ -1,9 +1,9 @@
-import { MainContent } from "../../style/styles";
+// import { MainContent } from "../../style/styles";
 
 export default function Home(){
     return(
-      <MainContent>
+      <main>
         <h1>Componente Home</h1>
-      </MainContent>
+      </main>
     );
   }

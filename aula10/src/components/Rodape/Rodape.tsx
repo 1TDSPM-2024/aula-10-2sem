@@ -1,9 +1,9 @@
-import { Footer } from "../../style/styles";
+import "../../style/style.scss"
 
 export default function Rodape(){
     return(
-        <Footer>
+        <footer>
             <p>Desenvolvido por <a href="https://github.com/luiz">Rei Luizinho</a></p>
-        </Footer>
+        </footer>
     )
 }

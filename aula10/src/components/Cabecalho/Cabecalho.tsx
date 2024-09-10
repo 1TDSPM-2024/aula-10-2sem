@@ -1,12 +1,12 @@
 import Menu from "../Menu/Menu";
-import { Header } from "../../style/styles";
+import "../../style/style.scss"
 
 export default function Cabecalho(){
     return(
-        <Header>
+        <header>
             <h1>Cabeçalho</h1>
             <Menu/>
-        </Header>
+        </header>
     )
 
 }

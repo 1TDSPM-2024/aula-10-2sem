@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import { MenuItem, MenuList, Nav } from "../../style/styles";
+import "../../style/style.scss"
 
 export default function Menu(){
     return(
-        <Nav>
-            <MenuList>
-                <MenuItem><Link to="/">Home</Link></MenuItem> 
-                <MenuItem><Link to="/produtos">Produtos</Link></MenuItem> 
-            </MenuList>
-        </Nav>
+        <nav>
+            <ul>
+                <li><Link to="/">Home</Link></li> 
+                <li><Link to="/produtos">Produtos</Link></li> 
+            </ul>
+        </nav>
     );
 }
