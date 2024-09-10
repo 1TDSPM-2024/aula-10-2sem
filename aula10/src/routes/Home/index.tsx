@@ -1,7 +1,9 @@
+import { MainContent } from "../../style/styles";
+
 export default function Home(){
     return(
-      <div>
+      <MainContent>
         <h1>Componente Home</h1>
-      </div>
+      </MainContent>
     );
   }
