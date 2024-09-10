@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
+import { MenuItem, MenuList, Nav } from "../../style/styles";
 
 export default function Menu(){
     return(
-        <nav>
-            <ul>
-                <li><Link to="/">Home</Link></li> 
-                <li><Link to="/produtos">Produtos</Link></li> 
-            </ul>
-        </nav>
+        <Nav>
+            <MenuList>
+                <MenuItem><Link to="/">Home</Link></MenuItem> 
+                <MenuItem><Link to="/produtos">Produtos</Link></MenuItem>
+                <MenuItem><Link to="/users">Usuários</Link></MenuItem>
+            </MenuList>
+        </Nav>
     );
 }

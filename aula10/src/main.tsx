@@ -7,6 +7,7 @@ import Home from './routes/Home/index.tsx';
 import EditarProdutos from './routes/EditarProdutos/index.tsx';
 import Produtos from './routes/Produtos/index.tsx';
 import Error from './routes/Error/index.tsx';
+import Usuarios from './routes/Usuarios/index.tsx';
 
 //Construindo o array de objetos de rotas:
 const routes = createBrowserRouter([
@@ -14,6 +15,7 @@ const routes = createBrowserRouter([
     {path:"/",element:<Home/>},
     {path:"/produtos",element:<Produtos/>},
     {path:"/editar/produtos/:id",element:<EditarProdutos/>},
+    {path:"/users",element:<Usuarios/>}
   ]}
 ]);
 
